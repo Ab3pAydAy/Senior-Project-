@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:habittracker/screens/data_screen.dart';
 import 'dart:async';
 import 'package:habittracker/screens/home_data_screen.dart';
 import 'home_data_screen.dart';
@@ -22,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   navigateToDeviceScreen() {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => Homedatascreen()));
+        context, MaterialPageRoute(builder: (context) => Datascreen()));
   }
 
   @override
