@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:habittracker/screens/data_screen.dart';
 import 'dart:async';
-import 'package:habittracker/screens/home_data_screen.dart';
-import 'home_data_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
