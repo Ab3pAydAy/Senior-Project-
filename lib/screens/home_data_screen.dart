@@ -49,9 +49,18 @@ class _MyHabitState extends State<MyHabit> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Text(
-        widget.HabitTitle,
-        style: TextStyle(fontSize: 40),
+      child: Column(
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              IconButton(icon: Icon(Icons.check_box), onPressed: null),
+              Text(
+                widget.HabitTitle,
+                style: TextStyle(fontSize: 40),
+              ),
+            ],
+          )
+        ],
       ),
     );
   }
